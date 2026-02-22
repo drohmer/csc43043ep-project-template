@@ -1,0 +1,57 @@
+# ====== Build outputs ======
+build/
+build_*/
+project
+*.exe
+*.out
+*.app
+
+# Emscripten output
+*.html
+*.js
+*.wasm
+*.data
+
+# ====== Compiled objects ======
+*.o
+*.d
+
+
+# ImGui saved layout
+imgui.ini
+
+# ====== CMake ======
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+install_manifest.txt
+_deps/
+
+# ====== IDEs ======
+# VS Code (keep vscode.code-workspace but ignore local settings)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/*.log
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# ====== OS files ======
+.DS_Store
+Thumbs.db
