@@ -33,3 +33,5 @@ Controls depend on the scene but the default camera uses:
 - **Middle mouse button** — pan
 
 An ImGui panel is available on the left side of the window for runtime parameters.
+
+_Last updated: 2026-03-02_
