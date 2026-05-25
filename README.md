@@ -34,4 +34,4 @@ Controls depend on the scene but the default camera uses:
 
 An ImGui panel is available on the left side of the window for runtime parameters.
 
-_Last updated: 2026-03-04_
+_Last updated: 2026-05-25_
